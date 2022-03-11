@@ -1,0 +1,23 @@
+[user]
+  name = Niklas Rittmann
+  email = niklas.rittmann@capgemini.com
+
+[core]
+  editor = nvim
+  excludesfile = ~/.gitignore_global
+
+[merge]
+  tool = "nvim"
+
+[mergetool]
+  keepBackup = false
+  prompt = false
+
+[mergetool "nvim"]
+  cmd = "nvim -d -c \"wincmd l\" -c \"norm ]c\" \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
+
+[pull]
+  rebase = false
+
+[init]
+  defaultBranch = master
