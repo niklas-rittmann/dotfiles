@@ -12,6 +12,9 @@ map('n', '<c-l>', '<c-w>l', { noremap = true })
 -- disable Q keymap
 map('n', 'Q', '<nop>', { noremap = true })
 
+-- remap ^ keymap
+map('n', '<leader>gb', '<c-^>', { noremap = true })
+
 -- close buffer
 map('n', '<leader>Q', '<cmd>bufdo bdelete<cr>', { noremap = true })
 
