@@ -16,6 +16,11 @@ alias gp "git push"
 # alias for nvim
 alias v "nvim"
 
+# trivy 
+# e. g. trivy image > output.txt
+alias ty20 "docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:0.20.1"
+alias ty16 "docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:0.16.0"
+
 # Source direnv on loading
 direnv hook fish | source
 
