@@ -9,6 +9,7 @@ local server_configs = {
   tsserver = {},
   tailwindcss = {},
   vuels = {},
+  gopls = {}, 
 }
 
 -- Configure each LSP by attaching completion and capabilities
